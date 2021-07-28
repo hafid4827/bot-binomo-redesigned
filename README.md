@@ -1,0 +1,4 @@
+# auto binomo
+
+### sponsors
+- VICTALEJO
