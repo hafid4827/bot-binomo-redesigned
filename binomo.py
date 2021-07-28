@@ -1,4 +1,3 @@
-import requests as rq
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep, time
@@ -191,10 +190,3 @@ class apiAlfaBinomo():
                 break
             except:
                 pass
-
-
-if __name__ == '__main__':
-    aApiAlfa = apiAlfaBinomo('','', timeBotWait = 120, loginError = True)
-    aApiAlfa.actionDV('EURUSD')
-    aApiAlfa.listOder()
- 
